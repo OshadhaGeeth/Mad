@@ -8,6 +8,7 @@
     app:circularflow_radiusInDP="12"
     tools:context=".MainActivity2">
 
+
     <View
         android:id="@+id/container2"
         android:layout_width="354dp"
