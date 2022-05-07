@@ -23,4 +23,30 @@
     <string name="secondTrip_expenses">Expenses:</string>
     <string name="thirdTrip_expenses">Expenses:</string>
     <string name="thirdTrip_income">Income:</string>
+    <string name="editTextTextPersonName">ADD YOUR REVIEW</string>
+
+    <string name="btn2">SUBMIT</string>
+    <string name="txt2">ADD YOUR REVIEWS</string>
+    <string name="btn5">EDIT</string>
+    <string name="btn6">DELETE</string>
+    <string name="btn7">VIEW</string>
+    <string name="btn8">VIEW</string>
+    <string name="btn9">VIEW</string>
+    <string name="btn10">DELETE</string>
+    <string name="rv1">Foods are amazing and good customer service. Highly recommended.</string>
+    <string name="rv2">Foods are amazing.Highly recommended.</string>
+    <string name="rv3">Foods are amazing.Highly Recommended.</string>
+    <string name="rv4">Yummy foods.good customer service.</string>
+    <string name="rv5">Highly recommended.Delicious foods...</string>
+    <string name="textnew1">enter your review</string>
+    <string name="rv9">Foods are amazing.Highly recommended.</string>
+    <string name="rv8">Yummy foods. good customer service.</string>
+    <string name="rv10">Highly recomended. delicious foods...</string>
+    <string name="rv11">enter your review</string>
+    <string name="fd1">Feedback 1</string>
+    <string name="fd2">Feedback 2</string>
+    <string name="fd3">Feedback 3</string>
+    <string name="fd4">Feedback 1</string>
+    <string name="fd5">Feedback 2</string>
+    <string name="fd6">Feedback 3</string>
 </resources>

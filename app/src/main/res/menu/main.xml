@@ -2,21 +2,33 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Refresh"
+    <item android:title="REFRESH"
         android:id="@+id/refresh"
         android:orderInCategory="100"
         app:showAsAction="ifRoom"
         android:icon="@drawable/refresh"
         />
 
-    <item android:title="Today Profits"
+    <item android:title="Add Reviews"
+        android:id="@+id/Profits"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Edit Reviews"
         android:id="@+id/todayProfits"
         android:orderInCategory="100"
         app:showAsAction="never"
         />
 
-    <item android:title="Profit Summary"
+    <item android:title="View Feedbacks"
         android:id="@+id/profitSummary"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Edit Feedbacks"
+        android:id="@+id/FeedbackSummary"
         android:orderInCategory="100"
         app:showAsAction="never"
         />
