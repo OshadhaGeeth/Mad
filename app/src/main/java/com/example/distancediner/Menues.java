@@ -1,17 +1,14 @@
 package com.example.distancediner;
 
-public class Menu {
-
+public class Menues {
     String meal;
     String description;
     String price;
 
-
-    public Menu(String meal, String description, String price) {
+    public Menues(String meal, String description, String price) {
         this.meal = meal;
         this.description = description;
         this.price = price;
-
     }
 
     public String getMeal() {
