@@ -1,26 +1,24 @@
 <resources>
     <string name="app_name">Distance Diner</string>
-    <string name="btn1">Go</string>
-    <string name="txt_pickDate">Select the Date</string>
-    <string name="txt_expenses">Enter Expenses</string>
-    <string name="txt_income">Enter Income</string>
-    <string name="txt_todayProfits">03/16/2022</string>
-    <string name="txt_firstTrip">First Trip</string>
-    <string name="txt_firstTrip1">First Trip :</string>
-    <string name="txt_secondTrip">Second Trip :</string>
-    <string name="txt_thirdTrip">Third Trip :</string>
-    <string name="txt_total">Total :</string>
-    <string name="firstTrip_view" />
-    <string name="secondTrip_view" />
-    <string name="thirdTrip_view" />
-    <string name="total_view" />
-    <string name="summary_firstTrip">First Trip</string>
-    <string name="summary_secondTrip">Second Trip</string>
-    <string name="summary_thirdTrip">Third Trip</string>
-    <string name="firstTrip_expenses">Expenses:</string>
-    <string name="firstTrip_income">Income:</string>
-    <string name="secondTrip_income">Income:</string>
-    <string name="secondTrip_expenses">Expenses:</string>
-    <string name="thirdTrip_expenses">Expenses:</string>
-    <string name="thirdTrip_income">Income:</string>
+    <string name="btn1">CheckOut</string>
+
+    <string name="editTextTextPersonName">Picked For You</string>
+    <string name="textViewmsg1">Today Lunch</string>
+    <string name="textViewmsg4">Today Dinner</string>
+    <string name="textViewmsg5">Today Breakfast</string>
+
+    <string name="editTextTextPersonName3">Discription</string>
+    <string name="editTextTextPersonName6">Total Price</string>
+    <string name="bt_m1">Place Orders</string>
+    <string name="textView5">Images</string>
+
+    <string name="textView7">Total Price</string>
+    <string name="textView8">Picked For You</string>
+    <string name="textView9">Picked For You</string>
+    <string name="textView6">Discription</string>
+    <string name="btn6">Check Out</string>
+    <string name="btn8">Check Out</string>
+    <string name="textView10">Name</string>
+    <string name="textView11">Contact Number</string>
+    <string name="et_msg2">Harith Ranaweera</string>
 </resources>
