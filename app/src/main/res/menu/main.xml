@@ -9,14 +9,20 @@
         android:icon="@drawable/refresh"
         />
 
-    <item android:title="Today Profits"
-        android:id="@+id/todayProfits"
+    <item android:title="Menu"
+        android:id="@+id/dropdown_menu"
         android:orderInCategory="100"
         app:showAsAction="never"
         />
 
-    <item android:title="Profit Summary"
-        android:id="@+id/profitSummary"
+    <item android:title="Edit Menu"
+        android:id="@+id/editMenu"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Orders"
+        android:id="@+id/orders"
         android:orderInCategory="100"
         app:showAsAction="never"
         />

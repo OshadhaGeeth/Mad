@@ -1,26 +1,13 @@
 <resources>
     <string name="app_name">Distance Diner</string>
-    <string name="btn1">Go</string>
-    <string name="txt_pickDate">Select the Date</string>
-    <string name="txt_expenses">Enter Expenses</string>
-    <string name="txt_income">Enter Income</string>
-    <string name="txt_todayProfits">03/16/2022</string>
-    <string name="txt_firstTrip">First Trip</string>
-    <string name="txt_firstTrip1">First Trip :</string>
-    <string name="txt_secondTrip">Second Trip :</string>
-    <string name="txt_thirdTrip">Third Trip :</string>
-    <string name="txt_total">Total :</string>
-    <string name="firstTrip_view" />
-    <string name="secondTrip_view" />
-    <string name="thirdTrip_view" />
-    <string name="total_view" />
-    <string name="summary_firstTrip">First Trip</string>
-    <string name="summary_secondTrip">Second Trip</string>
-    <string name="summary_thirdTrip">Third Trip</string>
-    <string name="firstTrip_expenses">Expenses:</string>
-    <string name="firstTrip_income">Income:</string>
-    <string name="secondTrip_income">Income:</string>
-    <string name="secondTrip_expenses">Expenses:</string>
-    <string name="thirdTrip_expenses">Expenses:</string>
-    <string name="thirdTrip_income">Income:</string>
+
+    <string name="b1">Add</string>
+    <string name="tv1">Select Meal</string>
+    <string name="rb1">Lunch</string>
+    <string name="rb2">Dinner</string>
+    <string name="rb3">Breakfast</string>
+    <string name="tv2">Description</string>
+    <string name="tv3">Price</string>
+    <string name="etm1">Enter Description</string>
+    <string name="e1">Enter Price</string>
 </resources>

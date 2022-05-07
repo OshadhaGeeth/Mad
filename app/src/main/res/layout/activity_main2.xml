@@ -11,162 +11,21 @@
 
     <View
         android:id="@+id/container2"
-        android:layout_width="354dp"
-        android:layout_height="508dp"
-        android:layout_marginBottom="50dp"
+        android:layout_width="352dp"
+        android:layout_height="569dp"
+        android:layout_marginBottom="52dp"
         android:background="#39EFF3EE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <EditText
-        android:id="@+id/txt_todayProfits"
-        android:layout_width="159dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/txt_todayProfits"
-        android:textSize="25dp"
-        android:textAlignment="center"
-        android:textColor="#004D1A"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="@+id/container2"
-        app:layout_constraintTop_toTopOf="@+id/container2"
-        app:layout_constraintVertical_bias="0.015" />
-
-    <EditText
-        android:id="@+id/txt_firstTrip"
-        android:layout_width="159dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/txt_firstTrip1"
-        android:textAlignment="textStart"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="@+id/container2"
-        app:layout_constraintTop_toTopOf="@+id/container2"
-        app:layout_constraintVertical_bias="0.227" />
-
-    <EditText
-        android:id="@+id/txt_secondTrip"
-        android:layout_width="159dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/txt_secondTrip"
-        android:textAlignment="textStart"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="@+id/container2"
-        app:layout_constraintTop_toTopOf="@+id/container2"
-        app:layout_constraintVertical_bias="0.416" />
-
-    <EditText
-        android:id="@+id/txt_thirdTrip"
-        android:layout_width="159dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/txt_thirdTrip"
-        android:textAlignment="textStart"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="@+id/container2"
-        app:layout_constraintTop_toTopOf="@+id/container2"
-        app:layout_constraintVertical_bias="0.592" />
-
-    <EditText
-        android:id="@+id/txt_total"
-        android:layout_width="113dp"
-        android:layout_height="49dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/txt_total"
-        android:textAlignment="textStart"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="@+id/container2"
-        app:layout_constraintTop_toTopOf="@+id/container2"
-        app:layout_constraintVertical_bias="0.812" />
-
     <TextView
-        android:id="@+id/firstTrip_view"
-        android:layout_width="149dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/firstTrip_view"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/txt_firstTrip"
-        app:layout_constraintTop_toTopOf="@+id/txt_todayProfits"
-        app:layout_constraintVertical_bias="0.195" />
-
-    <TextView
-        android:id="@+id/firstTrip_view2"
-        android:layout_width="149dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/firstTrip_view"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/txt_firstTrip"
-        app:layout_constraintTop_toTopOf="@+id/txt_todayProfits"
-        app:layout_constraintVertical_bias="0.397" />
-
-    <TextView
-        android:id="@+id/thirdTrip_view"
-        android:layout_width="149dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/thirdTrip_view"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/txt_firstTrip"
-        app:layout_constraintTop_toTopOf="@+id/txt_todayProfits"
-        app:layout_constraintVertical_bias="0.595" />
-
-    <TextView
-        android:id="@+id/total_view"
-        android:layout_width="115dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
-        android:text="@string/total_view"
-        app:layout_constraintBottom_toBottomOf="@+id/container2"
-        app:layout_constraintEnd_toEndOf="@+id/container2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/txt_total"
-        app:layout_constraintTop_toTopOf="@+id/txt_todayProfits"
-        app:layout_constraintVertical_bias="0.839" />
+        android:id="@+id/textView"
+        android:layout_width="120dp"
+        android:layout_height="44dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="148dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

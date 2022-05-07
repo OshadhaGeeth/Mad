@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "336904994397",
+    "project_id": "fir-app-73d8e",
+    "storage_bucket": "fir-app-73d8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336904994397:android:5f7bd97a01bada0e8297b4",
+        "android_client_info": {
+          "package_name": "com.example.distancediner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336904994397-nv1ga280fie4b38jqqlnaq8l1d3j6d0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD86sm7dPwzrg5knSTR0sNSWrV5J4J8LvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336904994397-nv1ga280fie4b38jqqlnaq8l1d3j6d0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

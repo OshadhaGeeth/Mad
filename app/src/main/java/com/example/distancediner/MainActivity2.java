@@ -16,7 +16,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Today Profits");
+        actionBar.setTitle("Edit Menu");
         //actionBar.setSubtitle("Insert your details to calculate");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
@@ -29,4 +29,6 @@ public class MainActivity2 extends AppCompatActivity {
 
         return super.onCreateOptionsMenu(menu);
     }
+
+
 }
