@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
 
         btnAdd = findViewById(R.id.btnAdd);
 
-        db = FirebaseDatabase.getInstance().getReference().child("Trips");
+        db = FirebaseDatabase.getInstance().getReference().child("Trip");
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 insertData();
+                clearAll();
             }
         });
 
@@ -68,6 +68,13 @@ public class MainActivity extends AppCompatActivity {
         db.push().setValue(trips);
         Toast.makeText(MainActivity.this, "Data Inserted Successfully", Toast.LENGTH_SHORT).show();
 
+    }
+
+    private void clearAll(){
+        txtDate.setText("");
+        txtTrip.setText("");
+        txtExpenses.setText("");
+        txtIncome.setText("");
     }
 
     @Override

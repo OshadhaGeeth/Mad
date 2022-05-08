@@ -13,7 +13,8 @@
         android:layout_width="351dp"
         android:layout_height="547dp"
         android:layout_marginBottom="4dp"
-        android:background="#39EFF3EE"
+        android:background="@drawable/rounded"
+        android:alpha="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
