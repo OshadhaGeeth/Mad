@@ -14,10 +14,135 @@
         android:layout_width="352dp"
         android:layout_height="569dp"
         android:layout_marginBottom="52dp"
-        android:background="#39EFF3EE"
+        android:alpha="0.6"
+        android:background="@drawable/rounded"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b11"
+        android:layout_width="211dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/b11"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/container2" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/tv1"
+        android:textAllCaps="false"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="144dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/tv2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2" />
+
+    <EditText
+        android:id="@+id/etm11"
+        android:layout_width="285dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="@string/etm11"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="143dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="192dp"
+        android:text="@string/tv3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="@+id/container2" />
+
+    <EditText
+        android:id="@+id/et11"
+        android:layout_width="284dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/rounded"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/et11"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/container2"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="@+id/container2" />
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="173dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/rounded"
+        android:text="@string/tv12"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="@+id/container2" />
+
+    <TextView
+        android:id="@+id/tv22"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:text="@string/tv22"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv11"
+        app:layout_constraintEnd_toEndOf="@+id/container2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/container2"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
