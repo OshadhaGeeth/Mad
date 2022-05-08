@@ -17,27 +17,23 @@ public class MainActivity extends AppCompatActivity {
 
     EditText et1,et3,etm1;
     Button b1;
-
     DatabaseReference db;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Add Menu");
         //actionBar.setSubtitle("Insert your details to calculate");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        et1 = findViewById(R.id.et1);
+        et1 = findViewById(R.id.et11);
         et3 = findViewById(R.id.et3);
-        etm1 = findViewById(R.id.etm1);
+        etm1 = findViewById(R.id.etm11);
 
-        b1 = findViewById(R.id.b1);
-
+        b1 = findViewById(R.id.b11);
         db = FirebaseDatabase.getInstance().getReference().child("Menues");
 
         b1.setOnClickListener(new View.OnClickListener() {
