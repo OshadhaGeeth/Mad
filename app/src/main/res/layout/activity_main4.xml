@@ -20,50 +20,32 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent" />
 
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/orderslist"
+        android:layout_width="358dp"
+        android:layout_height="516dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/container4"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
-        android:id="@+id/tv31"
-        android:layout_width="143dp"
+        android:id="@+id/tv43"
+        android:layout_width="139dp"
         android:layout_height="43dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="104dp"
-        android:layout_marginBottom="504dp"
-        android:text="@string/tv31"
+        android:text="@string/tv43"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/container4"
-        app:layout_constraintEnd_toEndOf="@+id/container4"
-        app:layout_constraintTop_toTopOf="@+id/container4"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="271dp"
-        android:layout_height="83dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/container4"
+        app:layout_constraintEnd_toEndOf="@+id/orderslist"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/container4"
-        tools:layout_editor_absoluteY="222dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="271dp"
-        android:layout_height="83dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/container4"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="@+id/container4"
-        tools:layout_editor_absoluteY="305dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="271dp"
-        android:layout_height="83dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/container4"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="@+id/container4"
-        tools:layout_editor_absoluteY="388dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
