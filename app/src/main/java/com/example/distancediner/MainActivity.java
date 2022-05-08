@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         et3 = findViewById(R.id.et3);
         etm1 = findViewById(R.id.etm11);
 
+
         b1 = findViewById(R.id.b11);
         db = FirebaseDatabase.getInstance().getReference().child("Menues");
 
