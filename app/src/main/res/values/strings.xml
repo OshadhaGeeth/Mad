@@ -1,13 +1,22 @@
 <resources>
     <string name="app_name">Distance Diner</string>
 
-    <string name="b1">Add</string>
-    <string name="tv1">Select Meal</string>
-    <string name="rb1">Lunch</string>
-    <string name="rb2">Dinner</string>
-    <string name="rb3">Breakfast</string>
+    <string name="b1">ADD</string>
     <string name="tv2">Description</string>
     <string name="tv3">Price</string>
     <string name="etm1">Enter Description</string>
     <string name="e1">Enter Price</string>
+    <string name="et3">Lunch/Dinner/Breakfast</string>
+    <string name="tv1">Meal</string>
+    <string name="tv11">"Meal "</string>
+    <string name="tv12">Lunch</string>
+    <string name="etm11">Red Rice</string>
+    <string name="b11">UPDATE</string>
+    <string name="et11">170.00</string>
+    <string name="tv22">Update Menu Here</string>
+    <string name="tv21">LUNCH</string>
+    <string name="tv23">DINNER</string>
+    <string name="tv24">BREAKFAST</string>
+    <string name="fab1">AddNew</string>
+    <string name="tv31">ORDERS</string>
 </resources>
