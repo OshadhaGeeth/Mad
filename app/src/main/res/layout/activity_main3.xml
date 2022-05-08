@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
         android:clickable="true"
+        android:contentDescription="@string/fab1"
         app:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/container3"
         app:layout_constraintEnd_toEndOf="@+id/container3"
@@ -38,6 +39,7 @@
         android:id="@+id/imageButton"
         android:layout_width="300dp"
         android:layout_height="146dp"
+        android:contentDescription="@string/tv12"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="@+id/container3"
         app:layout_constraintHorizontal_bias="0.468"
@@ -51,16 +53,33 @@
         android:layout_width="302dp"
         android:layout_height="141dp"
         android:layout_marginTop="200dp"
+        android:contentDescription="@string/tv23"
         app:layout_constraintEnd_toEndOf="@+id/container3"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="@+id/container3"
         app:layout_constraintTop_toTopOf="@+id/container3"
         app:srcCompat="@drawable/e849036547bc7fc458b0dd101fde8ec8__indian_wedding_food_indian_weddings" />
 
+    <TextView
+        android:id="@+id/tv23"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/rounded"
+        android:text="@string/tv23"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container3"
+        app:layout_constraintStart_toStartOf="@+id/container3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="301dp"
         android:layout_height="145dp"
+        android:contentDescription="@string/tv24"
         app:layout_constraintBottom_toBottomOf="@+id/container3"
         app:layout_constraintEnd_toEndOf="@+id/container3"
         app:layout_constraintHorizontal_bias="0.456"
@@ -68,5 +87,36 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="0.137"
         app:srcCompat="@drawable/food_spain_paella_family_dinner" />
+
+    <TextView
+        android:id="@+id/tv24"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/rounded"
+        android:text="@string/tv24"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/container3"
+        app:layout_constraintStart_toStartOf="@+id/container3" />
+
+    <TextView
+        android:id="@+id/tv21"
+        android:layout_width="193dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/rounded"
+        android:text="@string/tv21"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/container3"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/container3"
+        app:layout_constraintTop_toTopOf="@+id/container3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
