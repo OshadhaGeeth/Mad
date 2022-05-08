@@ -22,7 +22,7 @@
         tools:visibility="visible" />
 
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/b11"
         android:layout_width="211dp"
         android:layout_height="48dp"
         android:layout_marginBottom="32dp"
@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="@+id/container" />
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@+id/tv11"
         android:layout_width="151dp"
         android:layout_height="48dp"
         android:layout_marginTop="64dp"
@@ -59,22 +59,22 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/etm1"
+        app:layout_constraintBottom_toTopOf="@+id/etm11"
         app:layout_constraintEnd_toEndOf="@+id/container"
         app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="@+id/container"
-        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        app:layout_constraintTop_toBottomOf="@+id/tv11"
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/etm1"
+        android:id="@+id/etm11"
         android:layout_width="285dp"
         android:layout_height="125dp"
         android:background="@drawable/rounded"
         android:ems="10"
-        android:gravity="start|top"
         android:inputType="textMultiLine"
         android:text="@string/etm1"
+        android:textAlignment="center"
         android:textColor="@color/cardview_dark_background"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/container"
@@ -95,10 +95,10 @@
         app:layout_constraintEnd_toEndOf="@+id/container"
         app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="@+id/container"
-        app:layout_constraintTop_toTopOf="@+id/etm1" />
+        app:layout_constraintTop_toTopOf="@+id/etm11" />
 
     <EditText
-        android:id="@+id/et1"
+        android:id="@+id/et11"
         android:layout_width="284dp"
         android:layout_height="52dp"
         android:layout_marginBottom="84dp"
@@ -106,9 +106,10 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/e1"
+        android:textAlignment="center"
         android:textColor="@color/cardview_dark_background"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/b1"
+        app:layout_constraintBottom_toBottomOf="@+id/b11"
         app:layout_constraintEnd_toEndOf="@+id/container"
         app:layout_constraintStart_toStartOf="@+id/container" />
 
@@ -116,15 +117,16 @@
         android:id="@+id/et3"
         android:layout_width="291dp"
         android:layout_height="55dp"
+        android:background="@drawable/rounded"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/et3"
-        android:background="@drawable/rounded"
+        android:textAlignment="center"
         android:textColor="@color/cardview_dark_background"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/container"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="@+id/container"
-        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+        app:layout_constraintTop_toBottomOf="@+id/tv11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
