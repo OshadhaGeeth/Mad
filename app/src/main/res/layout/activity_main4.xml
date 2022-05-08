@@ -10,10 +10,11 @@
 
     <View
         android:id="@+id/container4"
+        android:alpha="0.6"
         android:layout_width="354dp"
         android:layout_height="508dp"
         android:layout_marginBottom="48dp"
-        android:background="#3BEFF3EE"
+        android:background="@drawable/rounded"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -36,11 +37,11 @@
         app:layout_constraintVertical_bias="0.619" />
 
     <Button
-        android:id="@+id/btn11"
+        android:id="@+id/btn25"
         android:layout_width="132dp"
         android:layout_height="48dp"
         android:background="@drawable/custom_button"
-        android:text="@string/btn7"
+        android:text="@string/btn25"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
@@ -85,11 +86,11 @@
         app:layout_constraintVertical_bias="0.952" />
 
     <Button
-        android:id="@+id/btn9"
+        android:id="@+id/btn24"
         android:layout_width="132dp"
         android:layout_height="48dp"
         android:background="@drawable/custom_button"
-        android:text="@string/btn7"
+        android:text="@string/btn24"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
@@ -118,11 +119,11 @@
         app:layout_constraintVertical_bias="0.439" />
 
     <Button
-        android:id="@+id/btn8"
+        android:id="@+id/btn23"
         android:layout_width="132dp"
         android:layout_height="48dp"
         android:background="@drawable/custom_button"
-        android:text="@string/btn7"
+        android:text="@string/btn23"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20dp"

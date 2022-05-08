@@ -10,10 +10,11 @@
 
     <View
         android:id="@+id/container3"
+        android:alpha="0.6"
         android:layout_width="351dp"
         android:layout_height="547dp"
-        android:layout_marginBottom="4dp"
-        android:background="#39EFF3EE"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/rounded"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
