@@ -8,33 +8,19 @@
     app:circularflow_radiusInDP="12"
     tools:context=".MainActivity4">
 
-
-    <View
-        android:id="@+id/container4"
-        android:layout_width="354dp"
-        android:layout_height="508dp"
-        android:layout_marginBottom="48dp"
-        android:background="#3BEFF3EE"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tripList"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/txt_login"
-        android:layout_width="159dp"
-        android:layout_height="47dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/summary_firstTrip"
-        android:textAlignment="center"
-        android:textColor="@color/white"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/container4"
-        app:layout_constraintEnd_toEndOf="@+id/container4"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="@+id/container4"
-        app:layout_constraintTop_toTopOf="@+id/container4"
-        app:layout_constraintVertical_bias="0.0" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
