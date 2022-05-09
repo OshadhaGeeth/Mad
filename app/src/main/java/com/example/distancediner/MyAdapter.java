@@ -35,7 +35,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.name.setText(li.getName());
         holder.contact.setText(li.getContact());
         holder.address.setText(li.getAddress());
-        holder.noOfParcels.setText(li.getNoOfParcels());
+        holder.parcels.setText(li.getParcels());
     }
 
     @Override
@@ -45,7 +45,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView name, contact, address, noOfParcels;
+        TextView name, contact, address, parcels;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -53,7 +53,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             name = itemView.findViewById(R.id.viewName);
             contact = itemView.findViewById(R.id.viewContact);
             address = itemView.findViewById(R.id.viewAddress);
-            noOfParcels = itemView.findViewById(R.id.viewParcels);
+            parcels = itemView.findViewById(R.id.viewParcels);
 
         }
     }
