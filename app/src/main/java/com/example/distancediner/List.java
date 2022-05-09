@@ -1,7 +1,7 @@
 package com.example.distancediner;
 
 public class List {
-    String name, address, contact, noOfParcels;
+    String name, address, contact, parcels;
 
     public String getName() {
         return name;
@@ -15,7 +15,7 @@ public class List {
         return contact;
     }
 
-    public String getNoOfParcels() {
-        return noOfParcels;
+    public String getParcels() {
+        return parcels;
     }
 }
