@@ -1,12 +1,15 @@
 package com.example.distancediner;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,6 +30,11 @@ public class MainActivity4 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Profit Summary");
+        //actionBar.setSubtitle("Insert your details to calculate");
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         recyclerView = findViewById(R.id.tripList);
         db = FirebaseDatabase.getInstance().getReference("Trip");
@@ -65,5 +73,20 @@ public class MainActivity4 extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.main, menu);
 
         return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.profitCalc){
+
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+
+            return true;
+
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
