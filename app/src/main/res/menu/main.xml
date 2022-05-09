@@ -15,7 +15,7 @@
         app:showAsAction="never"
         />
 
-    <item android:title="Edit Reviews"
+    <item android:title="Retrieve Reviews"
         android:id="@+id/todayProfits"
         android:orderInCategory="100"
         app:showAsAction="never"

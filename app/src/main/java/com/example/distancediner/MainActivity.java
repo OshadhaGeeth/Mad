@@ -22,12 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
     EditText editTextTextPersonName2;
     Button btn1;
-
     DatabaseReference db;
 
-
     /*Button button;*/
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,17 +36,13 @@ public class MainActivity extends AppCompatActivity {
         //actionBar.setSubtitle("Insert your details to calculate");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-
-
         //btn1= findViewById(R.id.btn1);
-      // button.setOnClickListener(new View.OnClickListener() {
+        // button.setOnClickListener(new View.OnClickListener() {
             //@Override
            // public void onClick(View view) {
              //   btnGo();
             //}
-       // });
-
-
+        //});
 
     editTextTextPersonName2 = findViewById(R.id.editTextTextPersonName2);
 
@@ -81,14 +74,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
     /*public void btnGo(){
         Intent intent= new Intent(this, MainActivity2.class);
         startActivity(intent);
     }*/
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
