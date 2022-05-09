@@ -1,11 +1,13 @@
 package com.example.distancediner;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
@@ -65,5 +67,22 @@ public class MainActivity3 extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+
+    //navigate to next page
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.FeedbackSummary){
+
+            Intent intent = new Intent(this, MainActivity4.class);
+            startActivity(intent);
+
+            return true;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 
 }
