@@ -1,6 +1,7 @@
 package com.example.distancediner;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -28,6 +29,7 @@ public class MainActivity5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main5);
 
+
         recyclerView = findViewById(R.id.tripList);
         db = FirebaseDatabase.getInstance().getReference("customerReviews");
         recyclerView.setHasFixedSize(true);
@@ -36,6 +38,14 @@ public class MainActivity5 extends AppCompatActivity {
         list = new ArrayList<>();
         myAdapter = new MyAdapter(this,list);
         recyclerView.setAdapter(myAdapter);
+
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Retriew Reviews");
+        //actionBar.setSubtitle("Insert your details to calculate");
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+
 
         db.addValueEventListener(new ValueEventListener() {
             @Override
@@ -58,6 +68,8 @@ public class MainActivity5 extends AppCompatActivity {
         });
 
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

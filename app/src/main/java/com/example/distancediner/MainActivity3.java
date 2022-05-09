@@ -46,7 +46,7 @@ public class MainActivity3 extends AppCompatActivity {
         });
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Profit Summary");
+        actionBar.setTitle("Feedbacks");
         //actionBar.setSubtitle("Insert your details to calculate");
         actionBar.setDisplayHomeAsUpEnabled(true);
 
