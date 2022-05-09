@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 }
 
+    //insert customer review
     private void insertData(){
 
         String review = editTextTextPersonName2.getText().toString();
